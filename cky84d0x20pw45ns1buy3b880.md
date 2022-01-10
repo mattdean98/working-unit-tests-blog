@@ -2,6 +2,8 @@
 
 > tldr; when a teammate comes to you for help with a problem, be sure not to write it off as a small or minute issue even if it appears to work normally in your environment or machine. There may be factors you are unaware of and leaving the conversation at "it works at my machine" definitely smells like *bad workplace culture* to me.
 
+
+# Introduction 
 So far in my career I have noticed there are four types of responses a developer can make when a fellow teammate comes to them with a problem they are unable to solve on their own:
 1. *"Cool, I remember when this occurred to me for the first time. Let me walk you through this so you know too!"*
 2. *"Woah - that seems weird. Let's dig into this together and figure it out!"*
