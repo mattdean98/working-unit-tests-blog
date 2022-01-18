@@ -1,7 +1,11 @@
 ## Imposter Syndrome and Software Development
 
 # Introduction
-This is my first post of content based on an episode of my podcast (of which you can find a link [here](https://anchor.fm/workingunittests/episodes/12-Imposter-Syndrome-and-Software-Development-e1d3b5o/))! #shamelessPlug 
+This is my first post of content based on an episode of my podcast you can see below! #shamelessPlug 
+
+<iframe src="https://open.spotify.com/embed/episode/1b5l1TYFdqC148e87laiWD?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+To find more, check out https://workingunittests.com!
 
 I would love to hear from you if this is helpful - feel free to leave a comment below or email me at hello@workingunittests.com! 
 
