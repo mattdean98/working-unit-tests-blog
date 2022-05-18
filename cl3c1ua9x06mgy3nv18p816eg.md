@@ -12,26 +12,33 @@ We had a dilemma today of an issue found in our code that needed to be fixed. Af
 `git bisect` accepts a "good" commit reference, and a "bad" commit reference and orchestrates a binary search within the limits of the two commits. This quickly allows you (the developer) to only focus on verifying if the next checked out commit is good or bad - without worrying about which commit to test next. At the end it spits out (assuming it works right and you have used it correctly): `COMMIT_ID is the first bad commit`
 
 # How it works - the cheatsheet
-1. Initialize the search
+Initialize the search
+
 `git bisect start`
 
-2. Inform it of the commit instance that works
+Inform it of the commit instance that works
+
 `git bisect good COMMIT_ID`
 
-3. Inform it of the commit instance that does not work
+Inform it of the commit instance that does not work
+
 `git bisect bad COMMIT_ID`
 
-4. It will load up a new commit, test and check if it is a "good" or a "bad" commit, and let it know. 
+It will load up a new commit, test and check if it is a "good" or a "bad" commit, and let it know. 
+
 `git bisect [good/bad]`
 
-5. Repeat step 4 until the following appears:
+Repeat until the following appears:
+
 `COMMIT_ID is the first bad commit` 
 (hang on to this commit id)
 
-6. Close the bisect session
+Close the bisect session
+
 `git bisect reset`
 
-7. Investigate the differences in the first bad commit
+Investigate the differences in the first bad commit
+
 `git diff COMMIT_ID~ COMMIT_ID`
 
 Voila! You should now be able to quickly find the instance of the issue!
