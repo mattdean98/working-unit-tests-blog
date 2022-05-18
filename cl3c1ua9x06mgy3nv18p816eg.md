@@ -4,7 +4,7 @@
 
 We had a dilemma today of an issue found in our code that needed to be fixed. After some time hunting I was able to find a distinct "this is good" reference in time and a distinct "this is not good" reference - but had no idea which commit between the two introduced the issue. 
 
-#### I was debating on going one commit at a time, until I learned about `git bisect`.
+**I was debating on going one commit at a time, until I learned about `git bisect`.**
 
 > git bisect quickly allows you to only focus on verifying if the next checked out commit is good or bad - without worrying about which commit to test next
 
