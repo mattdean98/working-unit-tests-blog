@@ -1,4 +1,4 @@
-## `git bisect` What you need to know and why you need to know it!
+## git bisect. What you need to know and why you need to know it!
 
 # The Intro
 
