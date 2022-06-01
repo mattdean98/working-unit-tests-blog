@@ -1,4 +1,4 @@
-## Imposter Syndrome and Software Development
+## #12 Imposter Syndrome and Software Development
 
 # Introduction
 This is my first post of content based on an episode of my podcast you can see below! #shamelessPlug 
